@@ -1,7 +1,7 @@
 //adapted from https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html
 
 const vertexShaderSource = require('./shaders/vertex.glsl') as string;
-const fragmentShaderSource = require('./shaders/fragmentShader.glsl') as string;
+const fragmentShaderSource = require('./shaders/fragment.glsl') as string;
 
 function createShader(gl: WebGLRenderingContext, type: number, source: string) {
     var shader = gl.createShader(type);

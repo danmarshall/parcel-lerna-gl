@@ -57,3 +57,14 @@ typings/
 # dotenv environment variables file
 .env
 
+# don't care about package-lock for this sample
+package-lock.json
+
+# dist built files
+dist
+
+#lerna debug
+lerna-debug.log
+
+#parcel cache
+.cache

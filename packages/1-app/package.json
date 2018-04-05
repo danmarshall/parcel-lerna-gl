@@ -1,0 +1,17 @@
+{
+  "name": "1-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "2-component": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0"
+  }
+}

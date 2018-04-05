@@ -1,0 +1,16 @@
+{
+  "name": "4-gl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p . & cpy ./src/shaders/*.glsl ./dist/shaders/"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "cpy-cli": "^1.0.1"
+  }
+}

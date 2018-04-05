@@ -47,8 +47,9 @@ function resize(canvas: HTMLCanvasElement) {
 
 function drawTriangle(canvas: HTMLCanvasElement) {
     // Get A WebGL context
-    var gl = canvas.getContext("webgl");
+    var gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
     if (!gl) {
+        console.log('webgl not supported in this canvas context');
         return;
     }
 
